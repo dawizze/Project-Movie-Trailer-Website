@@ -25,4 +25,7 @@ Jason_Bourne = media.Movie("Jason Bourne Ultimatum",
                            "PG-13")
 
 movies = [one_punch_man, deadpool, Jason_Bourne]
+
+# Uses list of movie instances as input to generate an HTML file
+# and open it in the browser.
 fresh_tomatoes.open_movies_page(movies)

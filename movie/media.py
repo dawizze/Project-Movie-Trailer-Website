@@ -8,6 +8,11 @@ class Movie():
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube, rating):
+        """ The init function will take in the title, move storyline, image,
+            trailer, and rating inorder to initialize the moive instance
+            - Image will be used as a thumbnail
+            - Trailer link will be used to show the movies trailer """
+
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
