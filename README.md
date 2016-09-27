@@ -16,8 +16,8 @@ Creating a new movie example: <br>
                             "Movie Rating")
                             
 After creating a new movie: <br>
-1. Add variable to movies list inside entertainment_center.py
-  * movies = [movie_variable1, movie2, movie3]
+  1. Add variable to movies list inside entertainment_center.py
+    * movies = [movie_variable1, movie2, movie3]
   
 # Running the program to generate webpage
 To run type in terminal: python entertainment_center.py
